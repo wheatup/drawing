@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import DrawingBoard from './components/DrawingBoard';
 
-class Drawing extends Component {
+class App extends Component {
 	render() {
 		return (
-			<div className="drawing">
+			<div className="app">
 				<DrawingBoard />
 			</div>
 		);
 	}
 }
 
-export default Drawing;
+export default App;
